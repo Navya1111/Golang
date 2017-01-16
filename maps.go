@@ -7,7 +7,7 @@ func main(){
 	x["i"]= 4
 	x["o"]= 3
 	x["u"]= 2
-	if value,ok:=x["o"]; ok{
+	if value,ok:=x["a"]; ok{
 		fmt.Println(value,ok)
 	}
 
